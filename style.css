@@ -17,6 +17,12 @@ header h1 {
   color: #ffffff;
   margin: 0 0 8px;
 }
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 360px;
+}
 nav a {
   color: #ffffff;
   margin-right: 16px;
@@ -62,4 +68,17 @@ footer {
   color: #5b6b74;
   font-size: 14px;
   text-align: center;
+}
+
+/* Multi-column section (Flexbox) */
+.highlights {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  column-gap: 24px;
+  flex-wrap: wrap;
+}
+.highlights div {
+  flex: 1;
+  min-width: 260px;
 }
