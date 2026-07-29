@@ -1,0 +1,26 @@
+/* Whole-page basics */
+body {
+  background-color: #f4f8f9;
+  color: #14252e;
+  font-family: Verdana, Arial, sans-serif;
+  margin: 0;
+  padding: 24px;
+  line-height: 1.6;
+}
+
+/* Headings */
+h1 {
+  color: #0b2230;
+}
+h2 {
+  color: #0e7a5f;
+  font-size: 28px;
+}
+p {
+  font-size: 18px;
+}
+
+/* Links */
+a {
+  color: #0e7a5f;
+}
