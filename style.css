@@ -122,3 +122,14 @@ main a {
 main a:hover {
   color: #0b2230;
 }
+
+/* Footer links */
+.footer-links a {
+  color: #0e7a5f;
+  font-weight: 700;
+  text-decoration: none;
+  transition: color 200ms;
+}
+.footer-links a:hover {
+  color: #0b2230;
+}
